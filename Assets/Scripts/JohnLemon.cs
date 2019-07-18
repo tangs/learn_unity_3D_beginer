@@ -41,7 +41,7 @@ public class JohnLemon : MonoBehaviour
             m_Movement, turnSpeed * Time.deltaTime, 0f);
         m_Rotation = Quaternion.LookRotation(desiredForward);
         //Debug.Log(m_Movement);
-        Debug.Log(desiredForward);
+        // Debug.Log(desiredForward);
     }
 
     private void OnAnimatorMove()
